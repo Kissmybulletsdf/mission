@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://graph.org/file/63df28fefef01796a7332.jpg")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://graph.org/file/6a2506bdf72802406b9a2.mp4")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
